@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap');
+@keyframes go-back {
+    0% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+*{
+    padding: 0%;
+    margin: 0px;
+    box-sizing: 0px;
+}
+
+body{
+  background-color: rgb(61, 60, 60);
+  color: white;
+  font-family: Poppins, sans-serif; 
+     
+}
+
+
+header{ 
+   display: flex;
+   justify-content: space-between;              
+   margin: 30px; 
+    align-items: center;
+}     
+
+
+.header{
+  font-size: 20px;
+  animation: go-back 1s;
+}
+
+.sobre{
+    justify-content: space-evenly;  
+    width: 20vw; 
+    display: flex;
+    font-size: 14px;
+    animation: go-back 1s;
+}   
+
+.pro{
+    margin-top: 6px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+    animation: go-back 1s;
+}
+
+.pro:hover{
+    color: red;
+    transform: translateX(10px) scale(1);
+
+}
+
+.sob{
+    border: 2px solid #ffff;
+    border-radius: 13px;
+    padding-left:0.5vw ;
+    padding-top:0.5vh ;
+    padding-right:0.5vw ;
+    padding-bottom:0.5vh ;
+    width: 5vw; 
+    font-size: 14px;
+    color: rgb(146, 7, 7);
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+    
+}   
+
+.sob:hover{
+    border: 2px solid  rgb(146, 7, 7);
+    color:white ;
+    background-color:rgb(146, 7, 7);
+    
+}
+
+.cont{
+    margin-top: 6px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+}
+
+.cont:hover{
+    color: red;
+  
+    transform: translateX(10px) scale(1);
+}
+
+
+.main{
+    margin: 21vh;
+    animation: go-back 1s;
+}
+
+.wassup{
+    
+    display: flex;
+    align-items: center;
+    font-size: 7vh;
+    font-style: bold;
+    animation: go-back 1s;
+}
+
+.exc{
+    color: rgb(146, 7, 7);
+    font-size: 9vh;
+}   
+
+.texto1{
+    font-size: 4vh;
+    animation: go-back 1s;
+}
+.about{
+    animation: go-back 1s;
+}
+
+.mae{
+    display: flex;
+
+}
+
+.insta{
+    width: 3vh;
+   padding: 1vh 0;
+   animation: go-back 1s;
+}
+
+
+.tt{
+    width: 3vh ;
+    margin:0 1vh ;
+    padding: 1vh 0;
+    animation: go-back 1s;
+}
+
+.git{
+    width: 2.5vh ;
+    margin:0 0.5vh ;
+    padding: 1vh 0;
+    animation: go-back 1s;
+}
+
+.spot{
+    width: 3vh ;
+    margin: -0.1vh 1vh ;
+    padding: 1vh 0;
+    animation: go-back 1s;
+}
+
+.carti{
+    margin:0 80vh;
+    margin-top: -45vh;
+    animation: go-back 1s;          
+}
+
+.pae{
+    margin-top: 25vh;
+    background-color: rgb(61, 60, 60);
+    height: 100vh;
+}
+
+.projetos{
+    text-align: center;
+    padding: 10vh;
+    font-size: 3vh;
+    align-items: center;
+
+}
+
+.seta{
+    text-align: center;
+    margin-top: -5vh;
+    width: 5vw;
+    margin-left: 47.5vw;
+    transition: all 0.5s ease 0s;
+}
+
+.seta:hover{
+    
+      transform: translateX(3px) scale(2);
+}
+
+.caixa{
+    border: 2px solid #ffff;
+    border-radius: 13px;
+    padding-left:0.5vw ;
+    padding-top:0.5vh ;
+    padding-right:0.5vw ;
+    padding-bottom:0.5vh ;
+    width: 16vw; 
+    height: 16vw;
+    font-size: 40px;
+    margin: 0 20vh;
+    margin-top: 20vh;
+    background-color:  rgb(167, 167, 163);
+    transition: all 0.5s ease 0s;
+    color: black;
+    text-align: center;
+
+}
+
+
+.caixa:hover{
+    
+    transform: translateX(3px) scale(1.3);
+}
+
+.caixa2{
+    border: 2px solid #ffff;
+    border-radius: 13px;
+    padding-left:0.5vw ;
+    padding-top:0.5vh ;
+    padding-right:0.5vw ;
+    padding-bottom:0.5vh ;
+    width: 16vw; 
+    height: 16vw;
+    font-size: 14px;
+    margin: 0 80vh;
+    margin-top: -33vh;
+    background-color: rgb(167, 167, 163);
+    transition: all 0.5s ease 0s;
+}
+
+.caixa2:hover{
+   
+   transform: translateX(3px) scale(1.3);
+}
+   
+
+.caixa3{
+    border: 2px solid #ffff;
+    border-radius: 13px;
+    padding-left:0.5vw ;
+    padding-top:0.5vh ;
+    padding-right:0.5vw ;
+    padding-bottom:0.5vh ;
+    width: 16vw; 
+    height: 16vw;
+    font-size: 14px;
+    margin: 0 140vh;
+    margin-top: -33vh;
+    background-color: rgb(167, 167, 163);
+    transition: all 0.5s ease 0s;
+}
+
+.caixa3:hover{
+    
+    transform: translateX(3px) scale(1.3);
+}
+
+.fio{
+    height: 95vh;
+    background-color: rgb(61, 60, 60);;
+}
+
+.sobre2{
+    margin: 0 11vh;
+    margin-top: 8vh;
+    font-size: 4vh;
+
+}
+
+.texto{
+    font-size: 2vh;
+    margin: 0 11vh;
+    margin-top: 5vh;
+}
+
+.jojo1{
+    border-radius: 13px;
+    padding-left:0.5vw ;
+    padding-top:0.5vh ;
+    padding-right:0.5vw ;
+    padding-bottom:0.5vh ;
+    width: 18vw; 
+    height: 45vw;
+    font-size: 14px;
+    margin: 0 140vh;
+    margin-top: -36vh;
+    background-color: rgb(97, 97, 94);
+}
+
+.jojo2{
+    margin-left: -11vh;
+    margin-top: 0.5vh;
+    
+}
+
+.hab{
+    margin: 0 11vh;
+    font-size: 4vh;
+    margin-top: -30vh;
+
+}
+
+.ht{
+    margin: 0 11vh;
+    margin-top: 2.5vh;
+}
+
+.cs{
+    margin: 0 23vh;
+    margin-top: -9.5vh;
+}
+
+.neto{
+    height: 100vh;
+    background-color: rgb(61, 60, 60);
+}
+
+.contato2 {
+    padding: 21vh 0;
+    padding-left: 20vh;
+    font-size: 5vh;
+}
+
+.cont3{
+    border-radius: 12px;
+    padding-left:0.5vw ;
+    padding-top:0.5vh ;
+    padding-right:0.5vw ;
+    padding-bottom:0.5vh ;
+    width: 40vw; 
+    height: 18vw;
+    font-size: 14px;
+    background-color: rgb(97, 97, 94);
+    margin: 20vh ;
+    margin-top: -15vh;
+}
+
+.instacont{
+    margin:0 29.5vh;
+    margin-top: -52vh;
+
+}
+
+.ga{
+    margin:0 9vh;
+    margin-top: -3.7vh;
+    font-size: 23px;
+}
+
+.ttcont{
+    margin:0 29vh;
+    margin-top: 6vh;
+
+}
+
+.ban{
+    margin:0 9vh;
+    margin-top: -3.5vh;
+    font-size: 23px;
+}
+
+.gitcont{
+    margin:0 29vh;
+    margin-top: 5vh;
+}
+
+.gt{
+    margin: 0 9vh;
+    margin-top: -4.5vh;
+    font-size: 23px;
+}
+
+@media(max-width: 460px) {
+    
+    .header{
+        font-size: 5vh;
+    }
+
+    .sobre{
+       margin:0 95vh;
+    }
+    .sob{
+        margin: 0 5vh;
+    }
+    .wassup{
+        font-size: 7vh;
+    }
+    .texto1{
+        margin: 0 1vh;
+    }
+    .about{
+        
+    }
+
+
+
+}
